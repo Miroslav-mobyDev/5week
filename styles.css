@@ -1,0 +1,447 @@
+p,a,li,h1{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+}
+button{
+    border: none;
+}
+ul{
+    padding:0;
+    margin:0;
+    list-style: none;;
+}
+.container{
+    max-width: 320px;
+    margin:0 auto;
+}
+.header{
+    align-items: center;
+}
+.header_menu{
+    display:flex;
+    justify-content: space-between;
+    background-color: #E1EDE6;
+    padding:20px;
+}
+.main_content{
+    background-color: #fafafa;
+}
+.production{
+    display:flex;
+}
+.production_content{
+    padding:20px;
+}
+.production_name{
+    font-family: Raleway;
+font-weight: 500;
+font-size: 30px;
+line-height: 100%;
+letter-spacing: 0%;
+color:#E1EDE6;
+}
+.production_logo{
+    font-family: Raleway;
+font-weight: 500;
+font-size: 30px;
+line-height: 100%;
+letter-spacing: 0%;
+color:#49b172;
+}
+.production_descr{
+    color: #86928B;
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    margin-bottom: 20px;
+}
+.production_button{
+    border: 1px solid #598D66;
+    color:#598D66;
+    padding:10px 30px;
+}
+/* Блок репродукций */
+.reproduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Заголовок */
+.reproduction_name {
+    font-size: 24px;
+    color: #2C2D35;
+    margin-bottom: 20px;
+}
+
+/* Кнопки */
+.reproduction_buttons {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.reproduction_button {
+    background-color: #D4E8D9;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    border: 1px solid #598D66;
+}
+
+.reproduction_button:hover {
+    background-color: #598D66;
+    color: white;
+}
+
+/* Скрываем все списки */
+.reproduction_list {
+    display: none;
+}
+
+/* Показываем только тот, который совпадает с :target */
+.reproduction_list:target {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Элементы списка */
+.reproduction_list_item {
+    background-color: #D4E8D9;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 250px;
+    text-align: center;
+}
+
+/* Изображения */
+.reproduction_item_img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/* Заголовки */
+.reproduction_item_author {
+    font-size: 16px;
+    color: #86928B;
+    margin-top: 10px;
+}
+
+.reproduction_picture_name {
+    font-size: 20px;
+    color: #2C2D35;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.reproduction_item_info {
+    font-size: 16px;
+    color: #2C2D35;
+    margin-top: 5px;
+}
+
+/* Цена */
+.reproduction_item_cost {
+    font-size: 18px;
+    color: #598D66;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Кнопка "В корзину" */
+.reproduction_item_button {
+    background-color: #D4E8D9;
+    border: 1px solid #598D66;
+    padding: 10px 20px;
+    color: #49b172;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.reproduction_item_button:hover {
+    background-color: #598D66;
+    color: white;
+}
+.collection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./collection.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+   padding:75px 10px
+   
+}
+.collection_name{
+    font-family: Raleway;
+font-weight: 500;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #F4F6F5;
+text-align: center;
+}
+.collection_descr{
+    font-family: Raleway;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+letter-spacing: 0%;
+color:white;
+}
+.collection_descr2{
+    font-family: Raleway;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+letter-spacing: 0%;
+color:white;
+margin-bottom: 20px;
+}
+.collection_button{
+    background: #EEDB6D;
+color:#2C2D35;
+border:none;
+padding:10px 90px;
+font-family: Raleway;
+font-weight: 500;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.team{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:10px 30px;
+    
+}
+.team_name{
+    font-family: Raleway;
+font-weight: 500;
+font-size: 24px;
+line-height: 110.00000000000001%;
+letter-spacing: 0%;
+color: #2C2D35;
+
+}
+.team_descr{
+    font-family: Raleway;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+letter-spacing: 0%;
+color: #2C2D35;
+
+}
+.team_avatar{
+    width:80px;
+    height:80px;
+}
+.footer {
+    background-color: #eaf1e6;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+
+.footer-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2c2d35;
+}
+
+.footer-logo img {
+
+}
+
+.footer-contacts {
+    font-size: 14px;
+    color: #333;
+    margin-top: 5px;
+}
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px;
+    width: 100%;
+    max-width: 320px;
+    text-align: left;
+}
+
+
+.footer-grid h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+
+.footer-grid a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+.footer-divider {
+    width: 100%;
+    max-width: 300px;
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+}
+
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.footer-social img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+
+.footer-bottom {
+    font-size: 12px;
+    color: #666;
+}
+/* Общие стили для корректного расчёта ширины */
+* {
+    box-sizing: border-box;
+}
+
+/* 690px - Планшеты */
+@media (max-width: 1439px) and (min-width: 690px) {
+    .container {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .reproduction_list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .reproduction_list_item {
+        width: 48%; /* Две карточки в ряд */
+        margin-bottom: 20px;
+    }
+
+    .team {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .team img {
+        max-width: 60%;
+    }
+
+    .team_text {
+        max-width: 80%;
+    }
+}
+
+/* 510px - Узкие планшеты */
+@media (max-width: 689px) and (min-width: 510px) {
+    .container {
+        max-width: 95%;
+        margin: 0 auto;
+    }
+
+    .reproduction_list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .reproduction_list_item {
+        width: 48%; /* Две карточки в ряд */
+        margin-bottom: 15px;
+    }
+
+    .team img {
+        max-width: 70%;
+    }
+
+    .team_text {
+        max-width: 90%;
+    }
+}
+
+
+
+/* 1440px - Десктоп */
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 50px;
+    }
+
+    .reproduction_list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+
+    .team {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .team img {
+        max-width: 40%;
+    }
+
+    .team_text {
+        max-width: 50%;
+    }
+}
+
