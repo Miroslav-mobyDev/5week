@@ -69,6 +69,7 @@ color:#49b172;
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 /* Заголовок */
@@ -102,15 +103,10 @@ color:#49b172;
 
 /* Скрываем все списки */
 .reproduction_list {
-    display: none;
+    display: flex;
 }
 
-/* Показываем только тот, который совпадает с :target */
-.reproduction_list:target {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
+
 
 /* Элементы списка */
 .reproduction_list_item {
@@ -289,6 +285,8 @@ color: #2C2D35;
     font-size: 14px;
     color: #333;
     margin-top: 5px;
+    
+
 }
 .footer-grid {
     display: grid;
@@ -297,6 +295,7 @@ color: #2C2D35;
     width: 100%;
     max-width: 320px;
     text-align: left;
+    align-items: center;
 }
 
 
