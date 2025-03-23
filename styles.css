@@ -1,3 +1,6 @@
+img{
+    max-width: 100%;
+}
 p,a,li,h1{
     padding:0;
     margin:0;
@@ -17,11 +20,21 @@ ul{
 }
 .header{
     align-items: center;
+    background-color: #E1EDE6;
+}
+.header_list{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+}
+.header_list_item{
+    font-size: 13px;
 }
 .header_menu{
     display:flex;
     justify-content: space-between;
-    background-color: #E1EDE6;
+   
     padding:20px;
 }
 .main_content{
@@ -29,6 +42,8 @@ ul{
 }
 .production{
     display:flex;
+    justify-content: center;
+    align-items: center;
 }
 .production_content{
     padding:20px;
